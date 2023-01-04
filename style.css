@@ -1,0 +1,107 @@
+.top-container {
+    background-color: #D1F4FA;  
+    position: relative;
+    padding-top: 100px;
+}
+.programmer {
+    font-size: 2.5rem;
+}
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #10EAF0;
+}
+h2 {
+    color: #10EAF0;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+a {
+    color: #11999E;
+}
+.middle-container {
+    padding-top: 50px;
+}
+.bottom-container {
+    margin-top: 50px;
+    position: relative;
+    background-color: #10EAF0;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.pro {
+    text-decoration: underline;
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud  {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.profilepic{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    background-color: #CDFCF6;
+}
+hr {
+    width: 5%;
+    border-style: dotted none none;
+    border-width: 5px;
+}
+div {
+    padding: 10px 0 0 0;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.programming {
+    height: 25%;
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+}
+.communication {
+    height: 25%;
+    width: 25%;
+    float: right;
+    padding-left: 30px;
+}
+.btn {
+    background-color: #10EAF0;
+    border: none;
+    color: white;
+    padding: 11px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+  }
+  .padding {
+    padding-bottom: 50px;
+  }
+  .footer-link {
+    margin: auto 30px;
+    text-decoration: none;
+  }
+  .copyright {
+    color: white;
+  }
