@@ -113,3 +113,34 @@ h2 {
         transform: rotate(0);
     }
 }
+.cta-div {
+    background-color: #FF4C68;
+    text-align: center;
+    padding: 3% 0;
+}
+.cta-h3 {
+    font-family: "Montserrat-Black";
+    color: #FFF;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    font-size: 2.5rem;
+}
+.download-button1 {
+    margin: 2% 1% 0;
+}
+.footer-div {
+    background-color: #FFF;
+    text-align: center;
+    padding: 2% 0;
+}
+.footer-icon-row {
+    width: 8%;
+    margin: auto;
+}
+.footer-icon-col{
+    width: 2%;
+}
+.footer-copy {
+    color: #8F8F8F;
+}
