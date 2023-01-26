@@ -21,6 +21,7 @@ h2 {
     color: #10EAF0;
     font-weight: normal;
     font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
 }
 h3 {
     font-family: 'Montserrat', sans-serif;
@@ -73,14 +74,14 @@ div {
     line-height: 2;
 }
 .programming {
-    height: 25%;
-    width: 25%;
+    height: 36%;
+    width: 36%;
     float: left;
     padding-right: 30px;
 }
 .communication {
-    height: 25%;
-    width: 25%;
+    height: 36%;
+    width: 36%;
     float: right;
     padding-left: 30px;
 }
@@ -108,6 +109,7 @@ div {
   .PD {
     width: 40%;
     margin: auto;
+    line-height: 2;
   }
   a:hover {
     color: #EAF6F6;
