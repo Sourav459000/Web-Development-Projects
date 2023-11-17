@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Stopwatch App</title>
+</head>
+
+<body>
+  <div class="navbar">
+    <h1>Stopwatch Web Application</h1>
+  </div>
+  <div class="stopwatch-container">
+    <div class="stopwatch">
+      <div id="time-container">
+        <div id="display">00:00:00.000</div>
+      </div>
+      <button id="startStop" onclick="startStop()">Start</button>
+      <button id="reset" onclick="reset()">Reset</button>
+      <button id="lap" onclick="lap()">Lap</button>
+      <table id="lapsTable">
+        <thead>
+          <tr>
+            <th>Lap</th>
+            <th>Time</th>
+          </tr>
+        </thead>
+        <tbody id="lapsBody"></tbody>
+      </table>
+      <div id="instructions">
+        <h3>Keyboard Shortcuts:</h3>
+        <p>Press <strong>Space bar</strong> to start/pause.</p>
+        <p>Press <strong>Enter</strong> for lap.</p>
+        <p>Press <strong>Esc</strong> to reset.</p>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>Project by <strong>Sourav</strong></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
