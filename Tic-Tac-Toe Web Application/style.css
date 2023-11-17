@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #c8e0e6;
+}
+
+.navbar {
+    width: calc(100% - 40px);
+    margin: 10px;
+    border-radius: 25px;
+    background-color: #3498db;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    position: relative;
+}
+
+.instructions {
+    position: absolute;
+    top: 40px;
+    left: 800px;
+    text-align: left;
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    color: #333;
+}
+
+.instructions h2 {
+    margin-bottom: 10px;
+    color: #3498db;
+}
+
+.instructions table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+.instructions table td {
+    width: 33.33%;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    border: 1px solid #ddd;
+    height: 75px;
+}
+
+.instructions table td:hover {
+    background-color: #ecf0f1;
+}
+
+.instructions table td:first-child {
+    border-right: none;
+}
+
+.instructions table td:last-child {
+    border-left: none;
+}
+
+
+.buttons-container {
+    position: absolute;
+    top: 0;
+    left: 340px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+button {
+    font-size: 1em;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #27ae60;
+}
+
+.game-board {
+    position: absolute;
+    top: 70px;
+    left: 320px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.cell {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 2em;
+    border: 2px solid #3498db;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #ecf0f1;
+}
+
+.cell.winner {
+    background-color: #3498db;
+    color: white;
+}
+
+.game-board.game-over .cell {
+    pointer-events: none;
+}
+
+.winner-display {
+    position: absolute;
+    top: 460px;
+    left: 410px;
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.reset-btn-container {
+    position: absolute;
+    top: 500px;
+    left: 420px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.reset-btn-container button {
+    font-size: 1em;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.reset-btn-container button:hover {
+    background-color: #27ae60;
+}
+
+footer {
+    position: absolute;
+    top: 750px;
+    width: calc(100% - 40px);
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
