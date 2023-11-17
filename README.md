@@ -14,7 +14,7 @@ Welcome to the Web Development Projects repository! Dive into the dynamic realm 
 
 ## Getting Started:
 
-1. Clone the repository: `git clone https://github.com/your-username/Web-Development-Projects.git`
+1. Clone the repository: `git clone https://github.com/Sourav459000/Web-Development-Projects.git`
 2. Choose a project folder to explore.
 3. Open the `index.html` file in your browser and start interacting with the project.
 
