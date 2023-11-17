@@ -1,0 +1,47 @@
+body {
+    background-color: #EAF6F6;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+hr {
+    width: 5%;
+    border-style: dotted none none;
+    border-width: 5px;
+}
+h1, h3, th{
+    font-family: 'Merriweather', serif;
+    color: #00ADB5;
+}
+
+img {
+    border-radius: 100%;
+}
+h3 {
+    margin-left: 15px;
+}
+#student {
+    margin-left: 0px;
+    text-decoration: none;
+}
+.A {
+    visibility: hidden;
+}
+#DCM {
+    margin-left: 0px;
+}
+th {
+    text-align: left;
+    text-decoration: none;
+}
+p, td {
+    font-family: 'Montserrat', sans-serif;
+}
+.emFont {
+    font-size: small;
+}
+.top-para {
+    margin-right: 2.5%;
+}
+.line-height {
+    line-height: 1.5;
+}
