@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="navbar">
+        <h1>Tic Tac Toe</h1>
+    </div>
+    <div class="container">
+        <div id="gameBoard" class="game-board"></div>
+        <div id="winnerDisplay" class="winner-display"></div>
+        <div class="instructions">
+            <h2>Instructions:</h2>
+            <p>1. Press ESC to reset the game.</p>
+            <p>2. Play the game using the Numpad or click on the cells.</p>
+            <p>3. For two-player mode, take turns clicking on the cells.</p>
+            <p>4. For AI mode, play your move, and the AI will respond.</p>
+            
+            <h3>Numpad Format:</h3>
+            <table>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                </tr>
+            </table>
+        </div>
+        <div class="buttons-container">
+            <button id="playWithFriendBtn" onclick="startGame(false)">Play with Friend</button>
+            <button id="playWithAIBtn" onclick="startGame(true)">Play with AI</button>
+        </div>
+        <div id="resetBtnContainer" class="reset-btn-container">
+            <!-- Reset button will be dynamically added here -->
+        </div>
+    </div>
+    <footer>
+        <p>Project by <strong>Sourav</strong></p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
