@@ -4,13 +4,13 @@ Welcome to the Web Development Projects repository! Dive into the dynamic realm 
 
 ## Project List:
 
-1. **Dice Challenge:** Roll the virtual dice and embrace the unpredictability.
-2. **Personal Site:** Build your online presence with a personalized website.
-3. **Sourav Resume:** Showcase your skills and experiences with a professional online resume.
-4. **Stopwatch Web Application:** Time your tasks with a simple and intuitive stopwatch.
-5. **Tic-Tac-Toe Web Application:** Engage in a classic game of tic-tac-toe online.
-6. **Tindog:** Design a stylish webpage for a fictional dog dating app.
-7. **Weather App:** Get real-time weather updates with this interactive application.
+1. **Dice Challenge:** Roll the virtual dice and embrace the unpredictability. [View Project](https://sourav459000.github.io/Web-Development-Projects/DiceChallenge/)
+2. **Personal Site:** Build your online presence with a personalized website. [View Project](https://sourav459000.github.io/Web-Development-Projects/PersonalSite/)
+3. **Sourav Resume:** Showcase your skills and experiences with a professional online resume. [View Project](https://sourav459000.github.io/Web-Development-Projects/SouravResume/)
+4. **Stopwatch Web Application:** Time your tasks with a simple and intuitive stopwatch. [View Project](https://sourav459000.github.io/Web-Development-Projects/Stopwatch/)
+5. **Tic-Tac-Toe Web Application:** Engage in a classic game of tic-tac-toe online. [View Project](https://sourav459000.github.io/Web-Development-Projects/TicTacToe/)
+6. **Tindog:** Design a stylish webpage for a fictional dog dating app. [View Project](https://sourav459000.github.io/Web-Development-Projects/Tindog/)
+7. **Weather App:** Get real-time weather updates with this interactive application. [View Project](https://sourav459000.github.io/Web-Development-Projects/WeatherApp/)
 
 ## Getting Started:
 
