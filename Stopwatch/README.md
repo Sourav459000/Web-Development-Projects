@@ -14,7 +14,7 @@ This project is a simple web-based stopwatch application that allows users to me
 
 ## Usage
 
-1. Open the `index.html` file in a web browser.
+1. Open the [Stopwatch Web Application](https://sourav459000.github.io/Web-Development-Projects/Stopwatch/) in a web browser.
 2. Use the provided buttons to control the stopwatch:
    - **Start/Pause**: Initiates or pauses the stopwatch.
    - **Reset**: Resets the stopwatch to zero.
