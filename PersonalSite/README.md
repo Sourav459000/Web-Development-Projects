@@ -4,6 +4,7 @@ This project is an HTML-based personal portfolio website for Sourav Toshniwal, s
 
 ## Features
 
+- **Responsive Design**: The website is designed to be responsive, ensuring a seamless viewing experience on different devices.
 - **Introduction Section**: Displays an introduction with a creative tagline and visuals.
 - **Skills Section**: Highlights Sourav's programming skills and communication abilities.
 - **Contact Me Section**: Encourages visitors to get in touch and provides a contact button for quick communication.
@@ -19,7 +20,7 @@ This project is an HTML-based personal portfolio website for Sourav Toshniwal, s
 
 ## How to View
 
-1. Open the HTML file (`index.html`) in a web browser.
+1. Open the hosted portfolio [here](https://sourav459000.github.io/Web-Development-Projects/PersonalSite/).
 
 ## Project Structure
 
@@ -28,9 +29,13 @@ This project is an HTML-based personal portfolio website for Sourav Toshniwal, s
 - **Image Files (`cloud.png`, `Sourav.jpg`, etc.):** Images used in the portfolio.
 - **Favicon (`favicon.ico`):** Custom icon displayed in the browser tab.
 
+## Responsive Design
+
+The website layout adapts to different screen sizes, ensuring optimal user experience on desktops, tablets, and mobile devices.
+
 ## Contact
 
-For any inquiries or collaboration opportunities, feel free to contact me:
+For any inquiries or collaboration opportunities, feel free to contact Sourav Toshniwal:
 
 - Email: sourav280902@gmail.com
 
